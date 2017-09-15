@@ -34,7 +34,8 @@ PROXIES = [
         #{"ip_prot" :"121.42.140.113:16816", "user_passwd" : ""}
         #{"ip_prot" :"121.42.140.113:16816", "user_passwd" : ""}
 ]
-USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
+# USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
+USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11;"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -85,10 +86,10 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'newdongguan.pipelines.NewdongguanPipeline': 300,
 }
-MYSQL_HOST = '127.0.0.1'
-MYSQL_DBNAME = 'lottery'         #数据库名字，请修改
-MYSQL_USER = 'root'             #数据库账号，请修改
-MYSQL_PASSWD = 'root'         #数据库密码，请修改
+MYSQL_HOST = '59aeb05f83aa4.gz.cdb.myqcloud.com'
+MYSQL_DBNAME = 'jyy'         #数据库名字，请修改
+MYSQL_USER = 'jyy'             #数据库账号，请修改
+MYSQL_PASSWD = 'jyy123'         #数据库密码，请修改
 
 MYSQL_PORT = 5916               #数据库端口，在dbhelper中使用
 #LOG_FILE = "sun.log"

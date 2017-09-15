@@ -13,8 +13,32 @@ class NewdongguanItem(scrapy.Item):
     # 标题
     title = scrapy.Field()
     # 编号
-    number = scrapy.Field()
+    qihao = scrapy.Field()
     # 内容
-    content = scrapy.Field()
+    kaijianhao = scrapy.Field()
     # 链接
-    url = scrapy.Field()
+    jiezhiduijianshijian = scrapy.Field()
+    # 出球顺序
+    chuqiushunxu = scrapy.Field()
+    # 本期销量
+    benqixiaoliang = scrapy.Field()
+    jianchiguncun = scrapy.Field()
+    # 一等奖
+    yidengjianzhushu = scrapy.Field()
+    yidengjianjianjin = scrapy.Field()
+    # 二等奖
+    erdengjianzhushu = scrapy.Field()
+    erdengjianjianjin = scrapy.Field()
+    # 三等
+    sandengjianzhushu = scrapy.Field()
+    sandengjianjianjin = scrapy.Field()
+    # 四等奖
+    # 四等奖
+    sidengjianzhushu = scrapy.Field()
+    sidengjianjianjin = scrapy.Field()
+
+    wudengjianzhushu = scrapy.Field()
+    wudengjianjianjin = scrapy.Field()
+
+    liudengjianzhushu = scrapy.Field()
+    liudengjianjianjin = scrapy.Field()
